@@ -1244,6 +1244,40 @@ import javax.tools.*
 import javax.script.*
 
 import org.yaml.snakeyaml.*
+import okhttp3.*
+import org.json.*
+import java.net.*
+import java.io.*
+
+import spice.basic.*
+
+import jat.coreNOSA.math.*
+import jat.coreNOSA.ephemeris.*
+import jat.coreNOSA.forces.*
+import jat.coreNOSA.spacecraft.*
+
+import jparsec.ephem.*
+import jparsec.astrophysics.*
+import jparsec.observer.*
+import jparsec.time.*
+
+import org.apache.commons.math3.*
+import org.apache.commons.math3.geometry.*
+import org.apache.commons.math3.linear.*
+import org.apache.commons.math3.ode.*
+import org.apache.commons.math3.analysis.*
+
+import org.hipparchus.*
+import org.hipparchus.geometry.*
+import org.hipparchus.ode.*
+
+import org.orekit.*
+import org.orekit.frames.*
+import org.orekit.bodies.*
+import org.orekit.orbits.*
+import org.orekit.time.*
+import org.orekit.propagation.*
+import org.orekit.forces.*
 val tabelaLetras = mutableListOf<String>()
 val letras = mutableListOf<String>()
 val palavras = mutableListOf<String>()
