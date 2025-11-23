@@ -11,6 +11,18 @@ val saudações = mutableListOf<String>()
 val verbos = mutableListOf<String>()
 val bebidas = mutableListOf<String>()
 val gírias = mutableListOf<String>()
+data class Palavra(val texto: String, val categoria: String)
+val banco = mutableListOf<Palavra>()
+val nomesMasculinos = banco.filter { it.categoria == "nome_masculino" }
+val nomesMasculinos = listOf("Enzo", "Gabriel", "João")
+val nomesFemininos  = listOf("Maria", "Ana", "Sofia")
+val nomesNeutros    = listOf("Alex", "Sam")
+val gíriasSus       = listOf("sus", "suspeito", "impostor", "ventou")
+nomesMasculinos.forEach { banco.add(Palavra(it, "nome_masculino")) }
+nomesFemininos.forEach { banco.add(Palavra(it, "nome_feminino")) }
+nomesNeutros.forEach { banco.add(Palavra(it, "nome_neutro")) }
+gíriasSus.forEach { banco.add(Palavra(it, "sus")) }
+
 /** LETRAS */
 tabelaLetras.add("q")
 tabelaLetras.add("w")
@@ -122,3 +134,28 @@ gírias.add("garoto")
 gírias.add("garota")
 gírias.add("homem")
 gírias.add("mulher")
+banco.add(Palavra("Enzo", "nome_masculino"))
+banco.add(Palavra("Gabriel", "nome_masculino"))
+banco.add(Palavra("João", "nome_masculino"))
+banco.add(Palavra("Pedro", "nome_masculino"))
+banco.add(Palavra("Maria", "nome_feminino"))
+banco.add(Palavra("Ana", "nome_feminino"))
+banco.add(Palavra("Beatriz", "nome_feminino"))
+banco.add(Palavra("Sofia", "nome_feminino"))
+banco.add(Palavra("miga", "apelido_feminino"))
+banco.add(Palavra("mano", "apelido_masculino"))
+banco.add(Palavra("tropa", "apelido_coletivo"))
+banco.add(Palavra("cria", "apelido"))
+banco.add(Palavra("Alex", "nome_neutro"))
+banco.add(Palavra("Sam", "nome_neutro"))
+banco.add(Palavra("sus", "giria_sus"))
+banco.add(Palavra("estranho", "sus"))
+banco.add(Palavra("suspeito", "sus"))
+banco.add(Palavra("duvidoso", "sus"))
+banco.add(Palavra("parece errado", "sus"))
+banco.add(Palavra("hm?", "sus"))
+banco.add(Palavra("impostor", "sus"))
+banco.add(Palavra("ventou", "sus"))   // referência Among Us
+banco.add(Palavra("tá estranho", "sus"))
+banco.add(Palavra("algo errado aí", "sus"))
+
