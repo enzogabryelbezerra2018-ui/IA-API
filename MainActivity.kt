@@ -2,6 +2,12 @@
 /** Copyright (C) Enzo inc. 2025-2026 */
 /** Copyright (C) Enzo LLC 2025-2026 */
 val tabelaLetras = mutableListOf<String>()
+val letras = mutableListOf<String>()
+val palavras = mutableListOf<String>()
+val palavrasMasculinas = mutableListOf<String>()
+val palavrasFemininas = mutableListOf<String>()
+val comidas = mutableListOf<String>()
+val saudações = mutableListOf<String>()
 /** LETRAS */
 tabelaLetras.add("q")
 tabelaLetras.add("w")
@@ -30,12 +36,30 @@ tabelaLetras.add("b")
 tabelaLetras.add("n")
 tabelaLetras.add("m")
 /** PALAVRAS PT-BR */
-tabelaLetras.add("Mano") /** Masculino */
-tabelaLetras.add("cara") /** Masculino */
-tabelaLetras.add("miga") /** Mulher */
-tabelaLetras.add("mana") /** Mulher */
-tabelaLetras.add("maçã") /** comida */
-tabelaLetras.add("banana") /** comida e tambem não vou usar mais comentários a seguir estou cansado */
-tabelaLetras.add("pera")
-tabelaLetras.add("uva Verde/Roxa")
-tabelaLetras.add("olá")
+palavras.add("Mano")
+palavras.add("cara")
+palavras.add("miga")
+palavras.add("mana")
+palavras.add("maçã")
+palavras.add("banana")
+palavras.add("pera")
+palavras.add("uva Verde/Roxa")
+palavras.add("olá")
+palavrasMasculinas.add("mano")
+palavrasMasculinas.add("cara")
+
+palavrasFemininas.add("miga")
+palavrasFemininas.add("mana")
+
+comidas.add("maçã")
+comidas.add("banana")
+comidas.add("pera")
+comidas.add("uva Verde/Roxa")
+
+saudações.add("olá")
+saudações.add("e ai mano")
+saudações.add("e ai mana")
+saudações.add("e ai")
+saudações.add("e ai tudo bem")
+saudações.add("oi")
+saudações.add("oi tudo bem?")
