@@ -1,6 +1,12 @@
 /** Copyright (C) Enzo 2025-2026 */
 /** Copyright (C) Enzo inc. 2025-2026 */
 /** Copyright (C) Enzo LLC 2025-2026 */
+/** Copyright (C) 2025–2026 Enzo. */
+/** Todos os direitos reservados. */
+/**                               */
+/** Este código é propriedade exclusiva do autor. */
+/** É proibida a cópia, redistribuição, modificação ou uso comercial */
+/** sem permissão expressa por escrito. */
 val tabelaLetras = mutableListOf<String>()
 val letras = mutableListOf<String>()
 val palavras = mutableListOf<String>()
