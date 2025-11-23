@@ -22,6 +22,7 @@ nomesMasculinos.forEach { banco.add(Palavra(it, "nome_masculino")) }
 nomesFemininos.forEach { banco.add(Palavra(it, "nome_feminino")) }
 nomesNeutros.forEach { banco.add(Palavra(it, "nome_neutro")) }
 gíriasSus.forEach { banco.add(Palavra(it, "sus")) }
+val criancas_5_7 = mutableListOf<String>()
 
 /** LETRAS */
 tabelaLetras.add("q")
@@ -158,4 +159,29 @@ banco.add(Palavra("impostor", "sus"))
 banco.add(Palavra("ventou", "sus"))   // referência Among Us
 banco.add(Palavra("tá estranho", "sus"))
 banco.add(Palavra("algo errado aí", "sus"))
-
+criancas_5_7.add("bola")
+criancas_5_7.add("gato")
+criancas_5_7.add("cachorro")
+criancas_5_7.add("boneca")
+criancas_5_7.add("carrinho")
+criancas_5_7.add("pipoca")
+criancas_5_7.add("pirulito")
+criancas_5_7.add("casinha")
+criancas_5_7.add("mãe")
+criancas_5_7.add("pai")
+criancas_5_7.add("tia")
+criancas_5_7.add("tio")
+criancas_5_7.add("parque")
+criancas_5_7.add("escola")
+criancas_5_7.add("amigo")
+criancas_5_7.add("amiga")
+criancas_5_7.add("quebra-cabeça")
+criancas_5_7.add("desenho")
+criancas_5_7.add("colorir")
+criancas_5_7.add("história")
+criancas_5_7.add("merenda")
+criancas_5_7.add("lanche")
+criancas_5_7.add("brincar")
+criancas_5_7.add("pular")
+criancas_5_7.add("cantar")
+criancas_5_7.add("abraço")
