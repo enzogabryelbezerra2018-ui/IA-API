@@ -7,6 +7,7 @@
 /** Este código é propriedade exclusiva do autor. */
 /** É proibida a cópia, redistribuição, modificação ou uso comercial */
 /** sem permissão expressa por escrito. */
+import com.enzo.util.*
 val tabelaLetras = mutableListOf<String>()
 val letras = mutableListOf<String>()
 val palavras = mutableListOf<String>()
