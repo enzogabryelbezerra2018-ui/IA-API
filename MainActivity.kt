@@ -1299,6 +1299,128 @@ import okhttp3.*
 
 import org.json.*
 import com.google.gson.*
+import java.util.Scanner
+import java.io.BufferedReader
+import java.io.InputStreamReader
+import java.io.PrintWriter
+
+import java.io.File
+import java.io.FileReader
+import java.io.FileWriter
+import java.nio.file.*
+
+import java.io.InputStream
+import java.io.OutputStream
+import java.io.ByteArrayInputStream
+import java.io.ByteArrayOutputStream
+
+import java.net.URL
+import java.net.HttpURLConnection
+import okhttp3.*
+
+import org.json.*
+import com.google.gson.*
+import javax.imageio.ImageIO
+import java.awt.image.BufferedImage
+import java.awt.Graphics2D
+
+import java.io.File
+import java.io.FileInputStream
+import java.io.FileOutputStream
+import java.io.BufferedInputStream
+import java.io.BufferedOutputStream
+
+import java.io.InputStream
+import java.io.OutputStream
+import java.io.ByteArrayInputStream
+import java.io.ByteArrayOutputStream
+
+import java.net.URL
+import okhttp3.*
+
+import java.util.zip.ZipInputStream
+import java.util.zip.ZipOutputStream
+import java.util.zip.GZIPInputStream
+import java.util.zip.GZIPOutputStream
+import org.apache.commons.compress.archivers.tar.TarArchiveInputStream
+import org.apache.commons.compress.archivers.tar.TarArchiveOutputStream
+import org.apache.commons.compress.archivers.sevenz.SevenZFile
+
+import org.apache.commons.imaging.*
+import org.apache.commons.imaging.common.*
+import org.apache.commons.imaging.formats.*
+
+import org.opencv.core.*
+import org.opencv.imgcodecs.*
+import org.opencv.imgproc.*
+
+import org.assimp4j.*
+import org.assimp4j.data.*
+
+import de.javagl.jgltf.impl.v2.*
+import de.javagl.jgltf.model.*
+import de.javagl.jgltf.model.io.*
+
+import org.collada.xml.*
+
+import java.nio.ByteBuffer
+import java.nio.ByteOrder
+
+import java.nio.file.Files
+import java.nio.file.Paths
+import androidx.compose.ui.*
+import androidx.compose.ui.graphics.*
+import androidx.compose.ui.unit.*
+import androidx.compose.ui.text.*
+import androidx.compose.ui.layout.*
+import androidx.compose.ui.tooling.preview.*
+
+import androidx.compose.foundation.*
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.*
+import androidx.compose.foundation.gestures.*
+import androidx.compose.foundation.lazy.*
+
+import androidx.compose.material3.*
+import androidx.compose.material.icons.*
+import androidx.compose.material.icons.filled.*
+import androidx.compose.material.icons.outlined.*
+
+import androidx.compose.runtime.*
+
+import androidx.compose.animation.*
+import androidx.compose.animation.core.*
+import androidx.compose.animation.graphics.*
+
+import androidx.navigation.*
+import androidx.navigation.compose.*
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
+
+import android.widget.*
+import android.view.*
+import android.graphics.*
+import android.speech.tts.TextToSpeech
+import android.speech.RecognizerIntent
+import android.media.AudioRecord
+import android.media.AudioFormat
+import android.media.MediaRecorder
+import android.media.AudioTrack
+import android.media.AudioAttributes
+import android.media.MediaPlayer
+import android.media.audiofx.Equalizer
+import android.media.audiofx.BassBoost
+import android.media.audiofx.EnvironmentalReverb
+import android.media.MediaCodec
+import android.media.MediaExtractor
+import android.media.MediaFormat
+import android.bluetooth.BluetoothAdapter
+import android.bluetooth.BluetoothHeadset
+import android.bluetooth.BluetoothA2dp
+import androidx.compose.runtime.*
+import org.vosk.Model
+import org.vosk.Recognizer
 val tabelaLetras = mutableListOf<String>()
 val letras = mutableListOf<String>()
 val palavras = mutableListOf<String>()
