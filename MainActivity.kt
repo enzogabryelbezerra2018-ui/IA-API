@@ -1172,7 +1172,78 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.*
 import androidx.compose.material.*
 import androidx.compose.material3.*
+import kotlin.*
+import java.*
+import android.*
+import kotlin.*
+import java.*
+import javax.*
+import androidx.*
+import java.net.*
+import java.io.*
+import java.util.*
+import java.net.URL
+import okhttp3.*
+import kotlin.text.*
+import kotlin.collections.*
+import kotlin.random.*
+import kotlin.math.*
+import org.json.*
+import java.net.*
+import java.io.*
+import okhttp3.*
+import kotlinx.coroutines.*
+import org.tensorflow.lite.*
+import android.os.*
+import android.util.*
+import android.app.*
+import android.content.*
+import android.widget.*
+import kotlin.text.*
+import kotlin.collections.*
+import kotlin.math.*
+import org.json.*
+import java.net.*
+import java.io.*
+import okhttp3.*
+import com.squareup.kotlinpoet.*
+import com.squareup.javapoet.*
+import com.github.javaparser.*
+import com.github.javaparser.ast.*
+import com.github.javaparser.ast.body.*
+import org.jetbrains.kotlin.cli.common.*
+import org.jetbrains.kotlin.psi.*
+import org.json.*
+import org.yaml.snakeyaml.*
+import javax.tools.*
+import javax.script.*
+import com.chaquo.python.*
+import java.io.File
+import java.io.FileWriter
+import java.nio.file.*
+import kotlin.text.*
+import kotlin.collections.*
+import kotlin.math.*
 
+import java.net.*
+import java.io.*
+import java.nio.file.*
+
+import okhttp3.*
+
+import org.json.*
+
+import com.squareup.kotlinpoet.*
+import com.squareup.javapoet.*
+
+import com.github.javaparser.*
+import com.github.javaparser.ast.*
+import com.github.javaparser.ast.body.*
+
+import javax.tools.*
+import javax.script.*
+
+import org.yaml.snakeyaml.*
 val tabelaLetras = mutableListOf<String>()
 val letras = mutableListOf<String>()
 val palavras = mutableListOf<String>()
