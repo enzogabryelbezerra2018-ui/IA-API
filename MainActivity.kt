@@ -1421,6 +1421,21 @@ import android.bluetooth.BluetoothA2dp
 import androidx.compose.runtime.*
 import org.vosk.Model
 import org.vosk.Recognizer
+import android.speech.SpeechRecognizer
+import android.speech.RecognizerIntent
+import android.speech.RecognitionListener
+import android.media.AudioRecord
+import android.media.AudioFormat
+import android.media.MediaRecorder
+import org.vosk.Model
+import org.vosk.Recognizer
+import org.vosk.android.SpeechService
+import org.vosk.android.RecognitionListener
+import android.media.MediaExtractor
+import android.media.MediaCodec
+import android.media.MediaFormat
+import android.bluetooth.BluetoothAdapter
+import android.bluetooth.BluetoothHeadset
 val tabelaLetras = mutableListOf<String>()
 val letras = mutableListOf<String>()
 val palavras = mutableListOf<String>()
