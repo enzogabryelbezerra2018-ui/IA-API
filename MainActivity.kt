@@ -30,3 +30,12 @@ tabelaLetras.add("b")
 tabelaLetras.add("n")
 tabelaLetras.add("m")
 /** PALAVRAS PT-BR */
+tabelaLetras.add("Mano") /** Masculino */
+tabelaLetras.add("cara") /** Masculino */
+tabelaLetras.add("miga") /** Mulher */
+tabelaLetras.add("mana") /** Mulher */
+tabelaLetras.add("maçã") /** comida */
+tabelaLetras.add("banana") /** comida e tambem não vou usar mais comentários a seguir estou cansado */
+tabelaLetras.add("pera")
+tabelaLetras.add("uva Verde/Roxa")
+tabelaLetras.add("olá")
