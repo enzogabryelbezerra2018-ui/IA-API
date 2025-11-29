@@ -8,6 +8,7 @@
 /** É proibida a cópia, redistribuição, modificação ou uso comercial */
 /** sem permissão expressa por escrito. */
 package com.enzo.util.oficial.app.ia.data.base
+val API_KEY_PUBLIC = "iakf@28(&3@:kejgi83(&:8394849"
 import com.enzo.util.*
 import kotlin.Byte
 import kotlin.Short
